@@ -1,3 +1,7 @@
+# A simple portfolio app built in reactjs. currently it is not optmized for small screens.
+
+## currently live on https://bejewelled-jelly-fd07b6.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
