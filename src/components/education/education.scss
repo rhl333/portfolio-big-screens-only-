@@ -1,0 +1,21 @@
+div.education {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  & div.educationContainer {
+    & h2 {
+      color: rgb(129, 71, 5);
+    }
+    & p {
+      color: rgb(49, 47, 47);
+    }
+    width: 900px;
+    & div.inter {
+      margin: 2rem 0;
+    }
+    & div.udemy {
+      margin-top: 2rem;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+div.about {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  & div.aboutPage {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & p {
+      line-height: 2rem;
+      font-size: 18px;
+      color: rgb(49, 47, 47);
+      letter-spacing: 0.8px;
+    }
+    & p.secondPara {
+      margin-top: 1rem;
+    }
+  }
+}
